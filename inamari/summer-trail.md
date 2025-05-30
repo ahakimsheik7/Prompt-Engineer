@@ -34,3 +34,39 @@ The email content should:
 
 The layout should be simple, responsive, and include space for a logo, a welcoming headline, a brief message, and a strong CTA. Ensure compatibility with Gmail, Outlook, and Apple Mail. Avoid external CSS.
 ```
+## 🧰 Reusable Prompts for SFMC Email Specialist Exam Preparation
+
+### 🔹 Prompt 1: Email Studio Workflow
+
+```markdown
+Generate 10 SFMC Email Specialist certification questions on the Email Studio workflow. Include stages like Content Builder, Subscriber Management, Guided Send, Preview & Test, Send Classification, and Tracking. Make the questions exam-ready with 4 multiple choice answers. Provide short explanations for each correct answer without bolding it so the user can guess first.
+```
+
+... (existing prompts 2–15 unchanged) ...
+
+### 🔹 Prompt 16: **Delta Airlines – Loyalty Email Template**
+```markdown
+Create a fully responsive HTML email layout for Delta Airlines called "delta-loyalty." The template should include three structured sections:
+
+1. **Header Section**
+   - Delta logo
+   - Seasonal travel banner (image placeholder)
+
+2. **Main Content Section (Two Columns)**
+   - Left column for **Gold Members** (highlight exclusive travel rewards and miles bonus)
+   - Right column for **Silver Members** (highlight perks and upgrade options)
+   - Both sections should include CTA buttons (e.g., “Book Now,” “View Perks”)
+
+3. **Footer Section**
+   - Signature from the Delta team
+   - Copyright disclaimer
+
+The template must:
+- Use inline CSS only
+- Be table-based (no divs)
+- Include ghost tables for spacing
+- Use MSO conditionals for Outlook support
+- Be optimized for Gmail, Outlook, and Apple Mail
+- Be mobile responsive
+- Be ready for AMPscript personalization (e.g., `%%FirstName%%`, `%%LoyaltyTier%%`, dynamic content blocks)
+```

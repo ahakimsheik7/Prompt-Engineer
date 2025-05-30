@@ -1,23 +1,33 @@
 # Prompt-Engineer
-Prompt Engineer A project to master prompt engineering for email marketing, SFMC automation, Google Business Profiles, SEO, websites, and AI-powered marketing workflows.
-
-<!--# 🧠 Prompt Engineer
-
-Here we are doing something meaningful — learning prompt engineering one night at a time.
-
-## 🔥 100-Night Journey Tracker
-
-We commit to studying, testing, and building every night — for 100 nights.  
-Let’s track our consistency and growth together.
-
-### 🗓️ Night #1  
-📅 Date: May 1, 2025  
-⏰ Time: 7:00 PM CST  
-🧠 Focus: SFMC Email Prompt + GitHub Setup  
-📍 Note: Repo created. README pushed. Journey begins.
+Prompt Engineer: A project to master prompt engineering for email marketing, SFMC automation, Google Business Profiles, SEO, websites, and AI-powered marketing workflows.
 
 ---
 
-We will track **every day** below with dates and session notes.  
-Stay consistent. Learn daily. Prompt like a pro.
-->
+## 🧰 Reusable Prompts for SFMC Email Specialist Exam Preparation
+
+### 🔹 Prompt 16: **Delta Airlines – Loyalty Email Template**
+```markdown
+Create a fully responsive HTML email layout for Delta Airlines called "delta-loyalty." The template should include three structured sections:
+
+1. **Header Section**
+   - Delta logo
+   - Seasonal travel banner (image placeholder)
+
+2. **Main Content Section (Two Columns)**
+   - Left column for **Gold Members** (highlight exclusive travel rewards and miles bonus)
+   - Right column for **Silver Members** (highlight perks and upgrade options)
+   - Both sections should include CTA buttons (e.g., “Book Now,” “View Perks”)
+
+3. **Footer Section**
+   - Signature from the Delta team
+   - Copyright disclaimer
+
+The template must:
+- Use inline CSS only
+- Be table-based (no divs)
+- Include ghost tables for spacing
+- Use MSO conditionals for Outlook support
+- Be optimized for Gmail, Outlook, and Apple Mail
+- Be mobile responsive
+- Be ready for AMPscript personalization (e.g., `%%FirstName%%`, `%%LoyaltyTier%%`, dynamic content blocks)
+```
